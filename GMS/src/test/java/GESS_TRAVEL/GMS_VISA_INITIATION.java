@@ -30,7 +30,10 @@ public class GMS_VISA_INITIATION {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.manage().window().maximize();
+		String wh=driver.getWindowHandle();
+		System.out.println(wh);
 		System.out.println("Successfully launched the browser and website");
+		
 	}
 	
 
